@@ -1,0 +1,109 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 3.718 s <<< FAILURE! - in TestSuite
+invokedriver(com.bikes.testCases.BikeDetailsTest)  Time elapsed: 1.206 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 89
+Current browser version is 91.0.4472.124 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MCKL-20004788', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00E8E7D3+124883]
+	Ordinal0 [0x00E8E7B1+124849]
+	GetHandleVerifier [0x010D8688+193832]
+	GetHandleVerifier [0x010F3AC5+305509]
+	GetHandleVerifier [0x010F021B+291003]
+	GetHandleVerifier [0x010EE0AC+282444]
+	GetHandleVerifier [0x01114A90+440624]
+	GetHandleVerifier [0x011147FC+439964]
+	GetHandleVerifier [0x0111154B+426987]
+	GetHandleVerifier [0x010F4FFD+310941]
+	GetHandleVerifier [0x010F5D8E+314414]
+	GetHandleVerifier [0x010F5D19+314297]
+	GetHandleVerifier [0x011B31EC+1089676]
+	GetHandleVerifier [0x011B17C9+1082985]
+	GetHandleVerifier [0x011B13A3+1081923]
+	GetHandleVerifier [0x012AD9FD+2115741]
+	Ordinal0 [0x00FDB82E+1488942]
+	Ordinal0 [0x00F75A7D+1071741]
+	Ordinal0 [0x00F7559B+1070491]
+	Ordinal0 [0x00F754B1+1070257]
+	Ordinal0 [0x00FAFF53+1310547]
+	BaseThreadInitThunk [0x779EFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77C87A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C87A6E+238]
+
+	at com.bikes.testCases.BikeDetailsTest.invokedriver(BikeDetailsTest.java:25)
+
+clickLogin1(com.bikes.testCases.LoginTest)  Time elapsed: 0.914 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 89
+Current browser version is 91.0.4472.124 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MCKL-20004788', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00E8E7D3+124883]
+	Ordinal0 [0x00E8E7B1+124849]
+	GetHandleVerifier [0x010D8688+193832]
+	GetHandleVerifier [0x010F3AC5+305509]
+	GetHandleVerifier [0x010F021B+291003]
+	GetHandleVerifier [0x010EE0AC+282444]
+	GetHandleVerifier [0x01114A90+440624]
+	GetHandleVerifier [0x011147FC+439964]
+	GetHandleVerifier [0x0111154B+426987]
+	GetHandleVerifier [0x010F4FFD+310941]
+	GetHandleVerifier [0x010F5D8E+314414]
+	GetHandleVerifier [0x010F5D19+314297]
+	GetHandleVerifier [0x011B31EC+1089676]
+	GetHandleVerifier [0x011B17C9+1082985]
+	GetHandleVerifier [0x011B13A3+1081923]
+	GetHandleVerifier [0x012AD9FD+2115741]
+	Ordinal0 [0x00FDB82E+1488942]
+	Ordinal0 [0x00F75A7D+1071741]
+	Ordinal0 [0x00F7559B+1070491]
+	Ordinal0 [0x00F754B1+1070257]
+	Ordinal0 [0x00FAFF53+1310547]
+	BaseThreadInitThunk [0x779EFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77C87A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C87A6E+238]
+
+	at com.bikes.testCases.LoginTest.clickLogin1(LoginTest.java:22)
+
+selectChennai(com.bikes.testCases.UsedCarsTest)  Time elapsed: 1.021 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 89
+Current browser version is 91.0.4472.124 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MCKL-20004788', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00E8E7D3+124883]
+	Ordinal0 [0x00E8E7B1+124849]
+	GetHandleVerifier [0x010D8688+193832]
+	GetHandleVerifier [0x010F3AC5+305509]
+	GetHandleVerifier [0x010F021B+291003]
+	GetHandleVerifier [0x010EE0AC+282444]
+	GetHandleVerifier [0x01114A90+440624]
+	GetHandleVerifier [0x011147FC+439964]
+	GetHandleVerifier [0x0111154B+426987]
+	GetHandleVerifier [0x010F4FFD+310941]
+	GetHandleVerifier [0x010F5D8E+314414]
+	GetHandleVerifier [0x010F5D19+314297]
+	GetHandleVerifier [0x011B31EC+1089676]
+	GetHandleVerifier [0x011B17C9+1082985]
+	GetHandleVerifier [0x011B13A3+1081923]
+	GetHandleVerifier [0x012AD9FD+2115741]
+	Ordinal0 [0x00FDB82E+1488942]
+	Ordinal0 [0x00F75A7D+1071741]
+	Ordinal0 [0x00F7559B+1070491]
+	Ordinal0 [0x00F754B1+1070257]
+	Ordinal0 [0x00FAFF53+1310547]
+	BaseThreadInitThunk [0x779EFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77C87A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C87A6E+238]
+
+	at com.bikes.testCases.UsedCarsTest.selectChennai(UsedCarsTest.java:22)
+

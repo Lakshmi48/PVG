@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.bikes.testCases.BikeDetailsTest">
+        <methods>
+          <include name="invokedriver"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.bikes.testCases.BikeDetailsTest -->
+      <class name="com.bikes.testCases.LoginTest">
+        <methods>
+          <include name="clickLogin1"/>
+        </methods>
+      </class> <!-- com.bikes.testCases.LoginTest -->
+      <class name="com.bikes.testCases.UsedCarsTest">
+        <methods>
+          <include name="selectChennai"/>
+          <include name="browserQuit"/>
+        </methods>
+      </class> <!-- com.bikes.testCases.UsedCarsTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
